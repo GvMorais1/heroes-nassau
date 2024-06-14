@@ -1,0 +1,7 @@
+<section class="container">
+  <div class="card" *ngFor="let heroi of listaHerois">
+    <img src="{{ heroi.images.lg }}" alt="">
+    <h1 fontes> {{ heroi.name | uppercase}}</h1>
+    <p fontes> {{ heroi.work.occupation | desocupado}}</p>
+  </div>
+</section>
